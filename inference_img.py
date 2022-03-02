@@ -77,7 +77,7 @@ if __name__ == '__main__':
     while True:
         cv2.imshow('raw', cv2.flip(frame, 1))
         ret, frame = cap.read()
-        frame = cv2.resize(frame, dim, interpolation = cv2.INTER_AREA)
+        #frame = cv2.resize(frame, dim, interpolation = cv2.INTER_AREA)
         #variant：模型类型，可以写死
         #model_path：模型存储的位置
         #input_img：cv2读到的图片
