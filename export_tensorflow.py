@@ -1,7 +1,7 @@
 """
 python export_tensorflow.py \
     --model-variant mobilenetv3 \
-    --model-variant deep_guided_filter \
+    --model-refiner deep_guided_filter \
     --pytorch-checkpoint rvm_mobilenetv3.pth \
     --tensorflow-output rvm_mobilenetv3_tf
 """
